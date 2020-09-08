@@ -49,7 +49,10 @@
 ```shell
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
 ```
-
+上面脚本不成功的话可以用这个：
+```shell
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/466034505/IBMYes/master/install.sh && chmod +x install.sh && ./install.sh
+```
 ![image-20200615210944753](img/README/image-20200615210944753.png)
 
 在配置的时候需要输入应用名称（这里就是我创建应用的时候输入应用名称我输入的是ibmyes，你需要改成你自己的名称）和应用内存大小（我们刚刚选择的是256）
